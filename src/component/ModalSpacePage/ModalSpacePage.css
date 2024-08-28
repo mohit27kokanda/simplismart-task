@@ -1,0 +1,147 @@
+body {
+  background-color: #0f0f2d;
+  color: #eaeaea;
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.page-title {
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 40px;
+
+  font-family: Quicksand;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 58px;
+}
+
+.input-form {
+  background-color: #1a1a40 !important ;
+  padding: 30px;
+  border: none !important;
+  box-shadow: none !important;
+}
+.card {
+  background-color: #1a1a40;
+  color: #eaeaea;
+  border-radius: 12px;
+  padding: 20px;
+  border-width: 2px;
+  border-style: solid;
+
+  border-image: linear-gradient(
+      to bottom,
+      #7e88cd 20%,
+      rgba(126, 136, 205, 0.3) 97%,
+      rgba(6, 14, 53, 0.3) 60%,
+      #060e35 100%
+    )
+    1;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3),
+    inset 0 0 15px rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+}
+
+.input-form input,
+.input-form .MuiInputBase-root {
+  background-color: #262653;
+  color: #ffffff;
+  border-radius: 8px;
+  padding: 10px;
+  border: none;
+}
+
+.input-form .MuiInputLabel-root {
+  color: #afafaf;
+}
+
+.input-form .MuiFormControlLabel-root {
+  color: #eaeaea;
+}
+
+.input-form button {
+  background-color: #3b82f6;
+  color: #ffffff;
+  margin-top: 20px;
+  padding: 10px 20px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.input-form button:hover {
+  background-color: #2563eb;
+}
+
+.output-section {
+  background-color: #1a1a40;
+  color: #eaeaea;
+  border-radius: 12px;
+  padding: 30px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  margin-left: 40px;
+}
+
+.output-title {
+  color: #ffffff;
+}
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+.loader {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+}
+
+.output-section {
+  background-color: rgba(38, 36, 74, 0.8);
+  color: #eaeaea;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.output-title {
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 10px;
+}
+
+.output-section .MuiTypography-subtitle1 {
+  color: #ffffffa4;
+  font-family: "Roboto", sans-serif;
+}
+
+.output-section pre,
+.output-section p,
+.output-section img,
+.output-section audio {
+  margin-bottom: 20px;
+}
+
+.output-section p {
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+}
+
+.output-section img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+.output-section audio {
+  width: 100%;
+}
+.output-message-card {
+  margin-top: 5px;
+  background-color: rgba(95, 111, 184, 0.564);
+  padding: 5px 10px;
+  border-radius: 10px;
+}

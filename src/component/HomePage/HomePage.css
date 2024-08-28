@@ -1,0 +1,66 @@
+.home-page {
+  padding-top: 40px;
+  background-color: #0f0f2d;
+}
+
+.page-title {
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 40px;
+  font-family: "Roboto", sans-serif;
+}
+
+.home-page .MuiGrid-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.home-page .MuiGrid-item {
+  display: flex;
+}
+
+.model-card {
+  color: #eaeaea !important;
+  border-radius: 12px;
+  padding: 20px;
+  border: 2px solid;
+  border-image: linear-gradient(
+      to bottom,
+      #7e88cd 20%,
+      rgba(126, 136, 205, 0.3) 97%,
+      #060e35 100%
+    )
+    1;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3),
+    inset 0 0 15px rgba(255, 255, 255, 0.1);
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex: 1;
+}
+
+.card-image {
+  border-radius: 8px 8px 0 0;
+  height: 140px;
+  object-fit: cover;
+}
+
+.card-content {
+  flex-grow: 1;
+}
+
+.card-title,
+.card-description {
+  font-family: "Roboto", sans-serif;
+}
+
+.card-title {
+  color: #ffffff !important;
+  margin-bottom: 10px;
+}
+
+.card-description {
+  color: #afafaf !important;
+  flex-grow: 1;
+}
