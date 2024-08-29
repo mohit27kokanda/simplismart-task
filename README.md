@@ -1,3 +1,3 @@
 # Ai Prediction
 
-# [Live:([link](https://simplismart-task.vercel.app/)).
+# Live:([link](https://simplismart-task.vercel.app/)).
